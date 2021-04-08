@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Potrfolio single</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <style type="text/css">
+		#loaderbkg{ 
+			width:100%;
+			height:100vh;
+			background: white;
+			position: fixed; 
+			top: 0;
+			left: 0;
+			z-index: 99999;
+		} 
+		@keyframes spin { 
+			100% { 
+				-webkit-transform: rotate(360deg);
+				-moz-transform: rotate(360deg);
+				-ms-transform: rotate(360deg);
+				-o-transform: rotate(360deg);
+				transform: rotate(360deg);
+			} 
+		}
+		.mainloader{ 
+			border: 12px solid #f3f3f3; 
+			border-radius: 50%; 
+			border-top: 12px solid #e83e8c; 
+			width: 70px; 
+			height: 70px; 
+			animation: spin 1s linear infinite;
+			position: fixed; 
+			top: calc(50% - 35px);
+			left: calc(50% - 35px);
+		}
+	</style>
+</head>
+<body>
+	<div id="loaderbkg"><div class="mainloader"></div></div>
+	<script src="js/jquery/jquery.min.js"></script>
+	<script type="text/javascript">
+		document.onreadystatechange = function() {
+			console.log(document.readyState);
+			if (document.readyState === "complete") {
+				$('#loaderbkg').fadeOut();
+			} 
+		};
+	</script>
+  <script src="js/aos.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+<div id="particles-js" class="partical_position">
+	<canvas class="particles-js-canvas-el partical_canvas"></canvas>
+  </div>
+	<section class="sec1">	
+		<div class="navbar_outer position_static bg_trans">
+			<div class="container">
+				<nav class="navbar navbar-expand-lg navbar-light" id="navbar-example">
+					<a class="navbar-brand left_text" href="#page-top"><strong class="logo text-white">SNIPP.</strong></a>
+					<button class="navbar-toggler text-white menu_text" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"  aria-expanded="false">Menu
+						<span><i class="fa fa-bars menu_icon text-white" aria-hidden="true"></i></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto nav-pills">
+							<li class="nav-item">
+								<a class="nav-link text-white nav_home" href="index.html">Home</a>
+							</li>	
+							<li class="nav-item ">
+								<a class="nav-link  text-white nav_about" href="about.html">About</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link  text-white active dropdown-toggle nav_port" href="#" data-toggle="dropdown">Portfolio</a>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="portfolio.html">Portfolio</a>
+									<a class="dropdown-item" href="portfoliosingle.html">Portfolio Single</a>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link  text-white nav_contact" href="contact.html">Contact</a>
+							</li>
+							<li class="nav-item">
+								<a class="btn btn-block btn-color text-white" href="contact.html">Get in touch</a>
+							</li>
+						</ul>
+
+					</div>
+				</nav>
+			</div>
+		</div>
+	</section>
+<section>
+	<div class="home_main pdb-200" id="contact">
+		<div class="container">
+			<div class="row justify-content-center mt-5">
+				<div class="col-md-4 col-10 text-white text-center data-1 fade_in">
+					<span class="home_link d-flex"><a class="fnz-12 ls-2" href="index.html">HOME<hr class="mt-1"></a> <a class="fnz-12 ml-5 ls-2" href="portfolio.html">PORTFOLIO<hr class="mt-1"></a> <a class="fnz-12 ml-5 ls-2" href="portfoliosingle.html">PORTFOLIO SINGLE<hr class="mt-1"></a></span>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-8 col-12 text-white text-center data-1 fade_in">
+					<strong class="fnwe-700">Portfolio Single</strong>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<div class="row mrt-100" >
+			<div class="col-md-7" data-aos="fade-up" >
+				<div class="row">
+					<div class="col"><img src="Images/work-2.jpg" class="img-fluid"></div>
+				</div>
+				<div class="row">
+					<div class="col" data-aos="fade-up">
+						<h2 class="mt-3 mb-3">#1. We Love WordPress Themes</h2>
+						<p class="text-black-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis et doloribus unde architecto optio laboriosam porro adipisci sapiente officiis nemo accusamus ad praesentium? Esse minima nisi et. Dolore perferendis, enim praesentium omnis, iste doloremque quia officia optio deserunt molestiae voluptates soluta architecto tempora.</p>
+						<p class="text-black-50">Molestiae cupiditate inventore animi, maxime sapiente optio, illo est nemo veritatis repellat sunt doloribus nesciunt! Minima laborum magni reiciendis qui voluptate quisquam voluptatem soluta illo eum ullam incidunt rem assumenda eveniet eaque sequi deleniti tenetur dolore amet fugit perspiciatis ipsa, odit. Nesciunt dolor minima esse vero ut ea, repudiandae suscipit!</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col" data-aos="fade-up">
+						<h2 class="mt-3 mb-3">#2. Creative WordPress Themes</h2>
+						<p class="text-black-50">Temporibus ad error suscipit exercitationem hic molestiae totam obcaecati rerum, eius aut, in. Exercitationem atque quidem tempora maiores ex architecto voluptatum aut officia doloremque. Error dolore voluptas, omnis molestias odio dignissimos culpa ex earum nisi consequatur quos odit quasi repellat qui officiis reiciendis incidunt hic non? Debitis commodi aut, adipisci.</p>
+						<p class="text-black-50">Quisquam esse aliquam fuga distinctio, quidem delectus veritatis reiciendis. Nihil explicabo quod, est eos ipsum. Unde aut non tenetur tempore, nisi culpa voluptate maiores officiis quis vel ab consectetur suscipit veritatis nulla quos quia aspernatur perferendis, libero sint. Error, velit, porro. Deserunt minus, quibusdam iste enim veniam, modi rem maiores.</p>
+						<p class="text-black-50">Odit voluptatibus, eveniet vel nihil cum ullam dolores laborum, quo velit commodi rerum eum quidem pariatur! Quia fuga iste tenetur, ipsa vel nisi in dolorum consequatur, veritatis porro explicabo soluta commodi libero voluptatem similique id quidem? Blanditiis voluptates aperiam non magni. Reprehenderit nobis odit inventore, quia laboriosam harum excepturi ea.</p>
+						<p class="text-black-50">Adipisci vero culpa, eius nobis soluta. Dolore, maxime ullam ipsam quidem, dolor distinctio similique asperiores voluptas enim, exercitationem ratione aut adipisci modi quod quibusdam iusto, voluptates beatae iure nemo itaque laborum. Consequuntur et pariatur totam fuga eligendi vero dolorum provident. Voluptatibus, veritatis. Beatae numquam nam ab voluptatibus culpa, tenetur recusandae!</p>
+						<p class="text-black-50">Voluptas dolores dignissimos dolorum temporibus, autem aliquam ducimus at officia adipisci quasi nemo a perspiciatis provident magni laboriosam repudiandae iure iusto commodi debitis est blanditiis alias laborum sint dolore. Dolores, iure, reprehenderit. Error provident, pariatur cupiditate soluta doloremque aut ratione. Harum voluptates mollitia illo minus praesentium, rerum ipsa debitis, inventore?</p>
+					</div>
+				</div>
+				<div class="row mb-5" data-aos="fade-up">
+					<div class="col-md-4 col-5 text-left"><Button class="btn btn_demo w-100" href="#">See Demo</Button></div>
+					<div class="col-md-4 col-5 text-left"><Button class="btn btn_download w-100" href="#">Download</Button></div>
+				</div>
+				<div class="row">
+					<div class="col" data-aos="fade-up"><h2>6 Comments</h2>
+						<div class="row mt-5" data-aos="fade-up">
+							<div class="col-md-1 col-2">
+								<div class="round"></div>
+							</div>
+
+							<div class="col-md-9 ml-3 col-9">
+								<div class="fnz-20 mb-2">John Doe</div>
+								<div class="fnz-12 text-muted ls-2" >JUNE 27, 2018 AT 2:21PM</div>
+								<div class="text-black-50 lh-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</div>
+								<a class="btn fnz-12 btn-light mt-4 mb-5 ls-2 reply_hover" href="#">REPLY</a>	
+							</div>
+						</div>
+					
+				<div class="row" data-aos="fade-up">
+							<div class="col-md-1 col-2">
+								<div class="round"></div>
+							</div>
+
+							<div class="col-md-9 ml-3 col-9">
+								<div class="fnz-20 mb-2">John Doe</div>
+								<div class="fnz-12 text-muted ls-2" >JUNE 27, 2018 AT 2:21PM</div>
+								<div class="text-black-50 lh-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</div>
+								<a class="btn fnz-12 btn-light mt-4 mb-5 ls-2 reply_hover" href="#">REPLY</a>	
+							</div>
+						</div>
+						
+				<div class="row" data-aos="fade-up">
+						<div class="col-md-1 col-1"></div>
+							<div class="col-md-1 col-2">
+								<div class="round"></div>
+							</div>
+
+							<div class="col-md-8 ml-3 col-8">
+								<div class="fnz-20 mb-2">John Doe</div>
+								<div class="fnz-12 text-muted ls-2" >JUNE 27, 2018 AT 2:21PM</div>
+								<div class="text-black-50 lh-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</div>
+								<a class="btn fnz-12 btn-light mt-4 mb-5 ls-2 reply_hover" href="#">REPLY</a>	
+							</div>
+						</div>
+					<div class="row" data-aos="fade-up">
+						<div class="col-md-1 col-1"></div>
+							<div class="col-md-1 col-2">
+								<div class="round"></div>
+							</div>
+
+							<div class="col-md-9 ml-3 col-8">
+								<div class="fnz-20 mb-2">John Doe</div>
+								<div class="fnz-12 text-muted ls-2" >JUNE 27, 2018 AT 2:21PM</div>
+								<div class="text-black-50 lh-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</div>
+								<a class="btn fnz-12 btn-light mt-4 mb-5 ls-2 reply_hover" href="#">REPLY</a>	
+							</div>
+						</div>
+						<div class="row" data-aos="fade-up">
+
+						<div class="col-md-2 col-2"></div>
+							<div class="col-md-1 col-2">
+								<div class="round"></div>
+							</div>
+
+							<div class="col-md-8 ml-3 col-6">
+								<div class="fnz-20 mb-2">John Doe</div>
+								<div class="fnz-12 text-muted ls-2" >JUNE 27, 2018 AT 2:21PM</div>
+								<div class="text-black-50 lh-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</div>
+								<a class="btn fnz-12 btn-light mt-4 mb-5 ls-2 reply_hover" href="#">REPLY</a>	
+							</div>
+						</div>
+
+						<div class="row" data-aos="fade-up">
+							<div class="col-md-1 col-2">
+								<div class="round"></div>
+							</div>
+
+							<div class="col-md-9 ml-3 col-9">
+								<div class="fnz-20 mb-2">John Doe</div>
+								<div class="fnz-12 text-muted ls-2" >JUNE 27, 2018 AT 2:21PM</div>
+								<div class="text-black-50 lh-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</div>
+								<a class="btn fnz-12 btn-light mt-4 mb-5 ls-2 reply_hover" href="#">REPLY</a>	
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="row fnz-30 mb-5">Leave a comment</div>
+				<div class="row mb-5">
+					<div class="col bg-light">
+					<form class="pl-5 pr-5 pt-5 pb-5">
+						<div class="form-group">
+							<label class="fnz-20">Name *</label>
+							<input type="text" class="form-control input_height">
+						</div>
+						<div class="form-group">
+							<label>Email *</label>
+							<input type="email" class="form-control input_height">
+						</div>
+						<div class="form-group">
+							<label>Website</label>
+							<input type="url" class="form-control input_height">
+						</div>
+						<div class="form-group">
+							<label>Message</label>
+							<textarea rows="8" class="form-control"></textarea>
+						</div>
+						<button href="#" class="btn btn_post w-80 mt-2">Post Comment</button>
+					</form>
+					
+				</div>
+				</div>
+			</div>
+			<div class="col-md-4 ml-5 mt-5" data-aos="fade-up">
+				<div class="" style="background-color: #f4f4f5; padding: 10px;height:75px;">
+				<form>
+					<div class="form-group">
+							<input type="text" class="form-control input_height bg-white" placeholder="Type a keyword and hit enter">
+						</div>
+				</form>
+				</div>
+				<div class="row" >
+					<div class="fnz-20 mt-5">Categories</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<div class="Categories mt-3"><a href="#" class="float-left ">Food</a><a href="#" class="float-right">(12)</a></div>
+					</div>
+				</div><hr>
+				<div class="row" >
+					<div class="col">
+					<div class="Categories"><a href="#" class="float-left ">Dish</a><a href="#" class="float-right">(22)</a></div></div>
+				</div><hr>
+				<div class="row">
+					<div class="col">
+					<div class="Categories"><a href="#" class="float-left ">Desserts</a><a href="#" class="float-right">(37)</a></div></div>
+				</div><hr>
+				<div class="row" >
+					<div class="col">
+					<div class="Categories"><a href="#" class="float-left ">Drinks</a><a href="#" class="float-right">(42)</a></div></div>
+				</div><hr>
+				<div class="row">
+					<div class="col">
+					<div class="Categories"><a href="#" class="float-left ">Ocassion</a><a href="#" class="float-right">(14)</a></div></div>
+				</div>
+				<div class="row">
+					<div class="fnz-20 mt-5">Recent Blog</div>
+				</div>
+				<div class="row">
+					<div class="col-md-5 mt-3 col-5" style="margin-left: -10px;">
+						<img class="img-fluid" src="images/image_1.jpg" style="height: 90px;width: 100%">
+					</div>
+					<div class="col-md-7 col-7 mt-3 text-black-50">
+						<a href="#" class="Blog">Even the all-powerful Pointing has no control about the blind texts</a>
+					</div>
+				</div>
+				<div class="row" >
+					<div class="col text-center fnz-12 porfolio_icon"><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i> July 12, 2018</a> <a href="#">&nbsp; &nbsp;<i class="fa fa-user-o" aria-hidden="true"></i> Admin</a>  <a href="#">&nbsp;&nbsp;<i class="fa fa-file-text" aria-hidden="true"></i> 19</a></div>
+				</div>
+				<div class="row">
+					<div class="col-md-5 mt-3 col-5" style="margin-left: -10px;">
+						<img class="img-fluid" src="images/image_2.jpg" style="height: 90px;width: 100%">
+					</div>
+					<div class="col-md-7 col-7 mt-3 text-black-50">
+						<a href="#" class="Blog">Even the all-powerful Pointing has no control about the blind texts</a>
+					</div>
+				</div>
+				<div class="row" >
+					<div class="col text-center fnz-12 porfolio_icon"><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i> July 12, 2018</a> <a href="#">&nbsp; &nbsp;<i class="fa fa-user-o" aria-hidden="true"></i> Admin</a>  <a href="#">&nbsp;&nbsp;<i class="fa fa-file-text" aria-hidden="true"></i> 19</a></div>
+				</div>
+				<div class="row">
+					<div class="col-md-5 mt-3 col-5" style="margin-left: -10px;">
+						<img class="img-fluid" src="images/image_3.jpg" style="height: 90px;width: 100%">
+					</div>
+					<div class="col-md-7 col-7 mt-3 text-black-50">
+						<a href="#" class="Blog">Even the all-powerful Pointing has no control about the blind texts</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col text-center fnz-12 porfolio_icon"><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i> July 12, 2018</a> <a href="#">&nbsp; &nbsp;<i class="fa fa-user-o" aria-hidden="true"></i> Admin</a>  <a href="#">&nbsp;&nbsp;<i class="fa fa-file-text" aria-hidden="true"></i> 19</a></div>
+				</div>
+				<div class="row mt-5 fnz-20">Tag Cloud</div>
+				<div class="row mt-3"><button class="btn fnz-12 btn-light border">DISH</button> <button class="btn fnz-12 btn-light border ml-3">MENU</button> <button class="btn fnz-12 btn-light border ml-3">FOOD</button> <button class="btn fnz-12 btn-light border ml-3">SWEET</button></div>
+				<div class="row mt-2"><button class="btn fnz-12 btn-light border">TASTY</button> <button class="btn fnz-12 btn-light border ml-2">DELICIOUS</button> <button class="btn fnz-12 btn-light border ml-2">DESSERTS</button> <button class="btn fnz-12 btn-light border ml-2">DRINK</button></div>
+				<div class="row mt-5 fnz-20">Paragraph</div>
+				<div class="row mt-2 text-black-50 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique, inventore eos fugit cupiditate numquam!</div>
+			</div>
+		</div>
+</div>
+</section>
+<section>
+	<div class="footer">
+		<div class="container text-white">
+			<div class="row justify-content-center p-5">
+				<div class="col-md-3">
+					<div class="row">
+						<div class="col fnz-18">Snipp.</div>
+					</div>
+					<div class="row mt-5">
+						<div class="col light_white">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</div>
+					</div><br><br>
+				</div>
+				<div class="col-md-1"></div>
+				<div class="col-md-2">
+					<div class="row">
+						<div class="col fnz-18">Quick Links</div>
+					</div>
+					<div class="row mt-5 footer_row">
+						<div class="col"><a href="#home">Home</a></div>
+					</div>
+					
+					<div class="row mt-3 footer_row">
+						<div class="col"><a href="#portfolio">Portfolio</a></div>
+					</div>
+					<div class="row mt-3 footer_row">
+						<div class="col"><a href="#about">About</a></div>
+					</div>
+					<div class="row mt-3 footer_row">
+						<div class="col"><a href="#contact">Contact</a></div><br><br>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="row">
+						<div class="col fnz-18">Contact Information</div>
+					</div>
+					<div class="row mt-5">
+						<div class="col light_white">198 West 21th Street, Suite 721 New York NY 10016</div>
+					</div>
+					<div class="row mt-3">
+						<div class="col light_white">+ 1235 2355 98</div>
+					</div>
+					<div class="row mt-3">
+						<div class="col light_white">info@yoursite.com</div>
+					</div>
+					<div class="row mt-3">
+						<div class="col light_white">email@email.com</div><br><br>
+					</div>
+				</div>
+				<div class="col-md-3 text-center" data-aos="fade-up"><a href="#"><i class="fa fa-twitter icon" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-facebook icon_f" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-instagram icon" aria-hidden="true"></i></a></div>
+			</div>
+			<div class="row"><div class="col text-center light_white">Copyright ©2020 All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by Colorlib</div></div>
+		</div>
+	</div>
+</section>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/partical.min.js"></script>
+  <script src="js/partical.js"></script>
+  <script>    
+    $(document).ready(function() {
+     if($(window).width()>768){
+				$(window).scroll(function(){
+					if($(window).scrollTop()>350){
+						$(".navbar_outer").addClass('bg-white position_fixed').removeClass('bg_trans');
+						$(".btn-color").addClass("bg_pink").removeClass('bg_trans bg-dark');
+						$(".navbar-light .navbar-nav .nav-link").addClass('text_pink').removeClass('text-white');
+						$('.navbar-light .navbar-nav .nav-link.active').addClass("text_pink").removeClass('text-white');
+						$('strong.logo').addClass("text_pink").removeClass('text-white');
+						$('.menu_text,.menu_icon').addClass("text_pink").removeClass("text-white");
+						$('.nav-link').hover(function(){
+							$('.nav-link').removeClass('bfr');
+							$(this).addClass('bfr');
+						})
+					}
+
+					else{
+						$(".navbar_outer").addClass('bg_trans position_static').removeClass('bg-white position_fixed');
+						$(".btn-color").addClass("bg_trans").removeClass('bg_pink bg-dark');
+						$(".navbar-light .navbar-nav .nav-link").addClass("text-white").removeClass('text_pink');
+						$('.navbar-light .navbar-nav .nav-link.active').addClass("text-white").removeClass('text_pink');
+						$('strong.logo').addClass("text-white").removeClass('text_pink');
+						$('.menu_text,.menu_icon').addClass("text-white").removeClass("text_pink");
+						$('.nav-link').hover(function(){
+							$('.nav-link').removeClass('bfr');
+						})
+					}
+				});
+			}
+			else {
+				$(window).scroll(function(){
+					if($(window).scrollTop()>350){
+						$(".navbar_outer").addClass('bg-white position_fixed').removeClass('bg-dark');
+						$(".btn-color").addClass("bg_pink").removeClass('bg-dark');
+						$(".navbar-light .navbar-nav .nav-link").addClass("text_pink").removeClass('text-white');
+						$('.navbar-light .navbar-nav .nav-link.active').addClass("text_pink").removeClass('text-white');
+
+						$('strong.logo').addClass("text_pink");
+						$('.menu_text,.menu_icon').addClass("text_pink").removeClass("text-white");
+						$('.nav-item').css("text-align","left")
+						$('.nav-link').hover(function(){
+							$('.nav-link').removeClass('bfr');
+							$(this).addClass('bfr');
+						})
+					}
+					else{
+						$(".navbar_outer").addClass('bg-dark position_fixed').removeClass('bg-white bg-dark');
+						$(".btn-color").addClass("bg-dark").removeClass('bg_pink bg-dark');
+						$(".navbar-light .navbar-nav .nav-link").addClass("text-white").removeClass('text_pink');
+						$('.navbar-light .navbar-nav .nav-link.active').addClass("text-white").removeClass('text_pink');
+						$('strong.logo').addClass("text-white").removeClass('text_pink');
+						$('.menu_text,.menu_icon').addClass("text-white").removeClass('text_pink');
+						$('.navbar-nav .nav-item').css("text-align","left")
+						$('.nav-link').hover(function(){
+							$('.nav-link').removeClass('bfr');
+						})
+					}
+				})
+			}
+
+      var fadeStart=50, // 50px scroll or less will equiv to 1 opacity
+        fadeUntil=500, // 500px scroll or more will equiv to 0 opacity
+        fading = $('.fade_in');
+        $(window).bind('scroll', function(){
+          var offset = $(document).scrollTop(),
+          opacity=0;
+          if( offset<=fadeStart ){
+            opacity=1;
+          }else if(offset<=fadeUntil){
+            opacity=1-offset/fadeUntil;
+          }
+          fading.css('opacity',opacity);
+        });
+		 AOS.init({
+	      duration :1000,
+	      mirror: false,
+	      once: true
+	    });
+    });
+  </script>
+</body>
+</html>

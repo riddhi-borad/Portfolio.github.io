@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CONTACT</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+ <style type="text/css">
+		#loaderbkg{ 
+			width:100%;
+			height:100vh;
+			background: white;
+			position: fixed; 
+			top: 0;
+			left: 0;
+			z-index: 99999;
+		} 
+		@keyframes spin { 
+			100% { 
+				-webkit-transform: rotate(360deg);
+				-moz-transform: rotate(360deg);
+				-ms-transform: rotate(360deg);
+				-o-transform: rotate(360deg);
+				transform: rotate(360deg);
+			} 
+		}
+		.mainloader{ 
+			border: 12px solid #f3f3f3; 
+			border-radius: 50%; 
+			border-top: 12px solid #e83e8c; 
+			width: 70px; 
+			height: 70px; 
+			animation: spin 1s linear infinite;
+			position: fixed; 
+			top: calc(50% - 35px);
+			left: calc(50% - 35px);
+		}
+	</style>
+</head>
+<body>
+	<div id="loaderbkg"><div class="mainloader"></div></div>
+	<script src="js/jquery/jquery.min.js"></script>
+	<script type="text/javascript">
+		document.onreadystatechange = function() {
+			console.log(document.readyState);
+			if (document.readyState === "complete") {
+				$('#loaderbkg').fadeOut();
+			} 
+		};
+	</script>
+
+  <script src="js/aos.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+	<div id="particles-js" class="partical_position">
+	<canvas class="particles-js-canvas-el partical_canvas"></canvas>
+  </div>
+	<section class="sec1">	
+		<div class="navbar_outer position_static bg_trans">
+			<div class="container">
+				<nav class="navbar navbar-expand-lg navbar-light" id="navbar-example">
+					<a class="navbar-brand left_text" href="#page-top"><strong class="logo text-white">SNIPP.</strong></a>
+					<button class="navbar-toggler text-white menu_text" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"  aria-expanded="false">Menu
+						<span><i class="fa fa-bars menu_icon text-white" aria-hidden="true"></i></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto nav-pills">
+							<li class="nav-item">
+								<a class="nav-link text-white nav_home" href="index.html">Home</a>
+							</li>	
+							<li class="nav-item ">
+								<a class="nav-link  text-white nav_about" href="about.html">About</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link  text-white dropdown-toggle nav_port" href="#" data-toggle="dropdown">Portfolio</a>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="portfolio.html">Portfolio</a>
+									<a class="dropdown-item" href="portfoliosingle.html">Portfolio Single</a>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link  text-white active  nav_contact" href="contact.html">Contact</a>
+							</li>
+							<li class="nav-item">
+								<a class="btn btn-block btn-color text-white" href="contact.html">Get in touch</a>
+							</li>
+						</ul>
+
+					</div>
+				</nav>
+			</div>
+		</div>
+	</section>
+<section>
+	<div class="home_main pdb-200" id="contact">
+		<div class="container" data-aos="fade-up">
+			<div class="row justify-content-center mt-3">
+				<div class="col-md-2 col-5 text-white text-center data-1 fade_in">
+					<span class="home_link d-flex"><a class="fnz-12 ml-3 ls-2" href="index.html">HOME<hr class="mt-1"></a> <a class="fnz-12 ml-5" href="contact.html">CONTACT<hr class="mt-1"></a></span>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-8 col-12 text-white text-center data-1 fade_in">
+					<strong class="fnwe-700">Contact</strong>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container" >
+			<div class="row" style="position: relative;top:-100px;">
+				<div class="col bg-light" >
+					<div class="container">
+						<div class="container">
+							<div class="container">
+					<div class="row mt-5">
+
+						<div class="col" style="font-size: 25px;">Contact Information</div>
+					</div>
+					<div class="row mt-5">
+						<div class="col-md-3 text-black-50">Address: 198 West 21th Street, Suite 721 New York NY 10016<br><br></div>
+						<div class="col-md-3 text-black-50">Phone: + 1235 2355 98</div><br><br>
+						<div class="col-md-3 text-black-50">Email: info@yoursite.com</div><br><br>
+						<div class="col-md-3 text-black-50">Website yoursite.com</div>
+					</div>
+					<div class="row mt-5">
+						<div class="col-md-6">
+							<form>
+								 <div class="form-group"><input type="text" class="form-control input_height" placeholder="Your Name"></div>
+								 <div class="form-group"><input type="Email" class="form-control input_height" placeholder="Your Email"></div>
+								 <div class="form-group"><input type="Email" class="form-control input_height" placeholder="Subject"></div>
+								 <div class="form-group"><textarea class="form-control" id="exampleFormControlTextarea1" rows="6">Message</textarea></div>
+
+							<div class="col-md-4 mt-4 col_padding mb-5">
+							<Button class="btn btn-block btn_send" href="#">Send Message</Button>
+							</div>
+							</form>
+						</div>
+							
+					
+						<div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100939.98555098464!2d-122.507640204439!3d37.757814996609724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2sro!4v1498231462606" height="80%" width="100%"></iframe></div>
+					</div>
+					</div>
+				</div>
+				</div>
+			</div>
+			</div>
+
+			</div>
+
+		</div>
+
+		</section>
+	
+
+<section>
+	<div class="footer">
+		<div class="container text-white">
+			<div class="row justify-content-center p-5">
+				<div class="col-md-3">
+					<div class="row">
+						<div class="col fnz-18">Snipp.</div>
+					</div>
+					<div class="row mt-5">
+						<div class="col light_white">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</div>
+					</div><br><br>
+				</div>
+				<div class="col-md-1"></div>
+				<div class="col-md-2">
+					<div class="row">
+						<div class="col fnz-18">Quick Links</div>
+					</div>
+					<div class="row mt-5 footer_row">
+						<div class="col"><a href="#home">Home</a></div>
+					</div>
+					
+					<div class="row mt-3 footer_row">
+						<div class="col"><a href="#portfolio">Portfolio</a></div>
+					</div>
+					<div class="row mt-3 footer_row">
+						<div class="col"><a href="#about">About</a></div>
+					</div>
+					<div class="row mt-3 footer_row">
+						<div class="col"><a href="#contact">Contact</a></div><br><br>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="row">
+						<div class="col fnz-18">Contact Information</div>
+					</div>
+					<div class="row mt-5">
+						<div class="col light_white">198 West 21th Street, Suite 721 New York NY 10016</div>
+					</div>
+					<div class="row mt-3">
+						<div class="col light_white">+ 1235 2355 98</div>
+					</div>
+					<div class="row mt-3">
+						<div class="col light_white">info@yoursite.com</div>
+					</div>
+					<div class="row mt-3">
+						<div class="col light_white">email@email.com</div><br><br>
+					</div>
+				</div>
+				<div class="col-md-3 text-center" data-aos="fade-up"><a href="#"><i class="fa fa-twitter icon" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-facebook icon_f" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-instagram icon" aria-hidden="true"></i></a></div>
+			</div>
+			<div class="row"><div class="col text-center light_white">Copyright ©2020 All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by Colorlib</div></div>
+		</div>
+	</div>
+</section>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/partical.min.js"></script>
+  <script src="js/partical.js"></script>
+  <script>    
+    $(document).ready(function() {
+     if($(window).width()>768){
+				$(window).scroll(function(){
+					if($(window).scrollTop()>350){
+						$(".navbar_outer").addClass('bg-white position_fixed').removeClass('bg_trans');
+						$(".btn-color").addClass("bg_pink").removeClass('bg_trans bg-dark');
+						$(".navbar-light .navbar-nav .nav-link").addClass('text_pink').removeClass('text-white');
+						$('.navbar-light .navbar-nav .nav-link.active').addClass("text_pink").removeClass('text-white');
+						$('strong.logo').addClass("text_pink").removeClass('text-white');
+						$('.menu_text,.menu_icon').addClass("text_pink").removeClass("text-white");
+						$('.nav-link').hover(function(){
+							$('.nav-link').removeClass('bfr');
+							$(this).addClass('bfr');
+						})
+					}
+
+					else{
+						$(".navbar_outer").addClass('bg_trans position_static').removeClass('bg-white position_fixed');
+						$(".btn-color").addClass("bg_trans").removeClass('bg_pink bg-dark');
+						$(".navbar-light .navbar-nav .nav-link").addClass("text-white").removeClass('text_pink');
+						$('.navbar-light .navbar-nav .nav-link.active').addClass("text-white").removeClass('text_pink');
+						$('strong.logo').addClass("text-white").removeClass('text_pink');
+						$('.menu_text,.menu_icon').addClass("text-white").removeClass("text_pink");
+						$('.nav-link').hover(function(){
+							$('.nav-link').removeClass('bfr');
+						})
+					}
+				});
+			}
+			else {
+				$(window).scroll(function(){
+					if($(window).scrollTop()>350){
+						$(".navbar_outer").addClass('bg-white position_fixed').removeClass('bg-dark');
+						$(".btn-color").addClass("bg_pink").removeClass('bg-dark');
+						$(".navbar-light .navbar-nav .nav-link").addClass("text_pink").removeClass('text-white');
+						$('.navbar-light .navbar-nav .nav-link.active').addClass("text_pink").removeClass('text-white');
+
+						$('strong.logo').addClass("text_pink");
+						$('.menu_text,.menu_icon').addClass("text_pink").removeClass("text-white");
+						$('.nav-item').css("text-align","left")
+						$('.nav-link').hover(function(){
+							$('.nav-link').removeClass('bfr');
+							$(this).addClass('bfr');
+						})
+					}
+					else{
+						$(".navbar_outer").addClass('bg-dark position_fixed').removeClass('bg-white bg-dark');
+						$(".btn-color").addClass("bg-dark").removeClass('bg_pink bg-dark');
+						$(".navbar-light .navbar-nav .nav-link").addClass("text-white").removeClass('text_pink');
+						$('.navbar-light .navbar-nav .nav-link.active').addClass("text-white").removeClass('text_pink');
+						$('strong.logo').addClass("text-white").removeClass('text_pink');
+						$('.menu_text,.menu_icon').addClass("text-white").removeClass('text_pink');
+						$('.navbar-nav .nav-item').css("text-align","left")
+						$('.nav-link').hover(function(){
+							$('.nav-link').removeClass('bfr');
+						})
+					}
+				})
+			}
+      var fadeStart=50, // 50px scroll or less will equiv to 1 opacity
+        fadeUntil=500, // 500px scroll or more will equiv to 0 opacity
+        fading = $('.fade_in');
+        $(window).bind('scroll', function(){
+          var offset = $(document).scrollTop(),
+          opacity=0;
+          if( offset<=fadeStart ){
+            opacity=1;
+          }else if(offset<=fadeUntil){
+            opacity=1-offset/fadeUntil;
+          }
+          fading.css('opacity',opacity);
+        });
+        AOS.init({
+	      duration :1000,
+	      mirror: false,
+	      once: true
+    	});
+    });
+  </script>
+</body>
+</html>
